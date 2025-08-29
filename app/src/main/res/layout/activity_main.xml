@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#E3F2FD"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colegio Smart 📚"
+        android:textSize="28sp"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnBuscarAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔍 Buscar Alumno"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnListaAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Lista de Alumnos"
+        android:textSize="18sp"
+        android:backgroundTint="#9C27B0"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nuevo botón para registrar -->
+    <Button
+        android:id="@+id/btnRegistrarAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📝 Registrar Alumno"
+        android:textSize="18sp"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnEscanearQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📸 Escanear QR"
+        android:textSize="20sp"
+        android:backgroundTint="#FF9800"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

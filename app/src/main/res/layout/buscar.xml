@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Campo de búsqueda -->
+        <EditText
+            android:id="@+id/editTextBusqueda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar por nombre, raza, tipo, etc."
+            android:inputType="text" />
+
+        <!-- Lista de resultados -->
+        <ListView
+            android:id="@+id/listaResultados"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Campos para mostrar y editar los datos -->
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:enabled="false"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/editTextRaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Raza" />
+
+        <EditText
+            android:id="@+id/editTextTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo" />
+
+        <EditText
+            android:id="@+id/editTextGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Género" />
+
+        <EditText
+            android:id="@+id/editTextPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso" />
+
+        <EditText
+            android:id="@+id/editTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Color" />
+
+        <!-- Botones para editar y eliminar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar" />
+
+            <Button
+                android:id="@+id/btnEliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eliminar"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
