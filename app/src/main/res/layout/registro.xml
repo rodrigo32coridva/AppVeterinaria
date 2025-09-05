@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/edtRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Raza" />
+
+    <EditText
+        android:id="@+id/edtTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo" />
+
+    <EditText
+        android:id="@+id/edtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso" />
+
+    <EditText
+        android:id="@+id/edtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Color" />
+
+    <EditText
+        android:id="@+id/edtGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Género" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar" />
+
+</LinearLayout>
